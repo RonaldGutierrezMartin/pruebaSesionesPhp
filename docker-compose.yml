@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+    wwwnl:
+        container_name: wwwnl
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ./index2.php:/var/www/html
+        ports:
+            - 8000:80
+    
+    
