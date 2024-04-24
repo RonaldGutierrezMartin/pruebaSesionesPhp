@@ -17,7 +17,11 @@
     if (isset($_SESSION["hola"])) {
         echo "exite";
         echo $_SESSION["hola"];
+    }else{
+        echo "tal";
     }
+
+
 
     ?>
 </body>
