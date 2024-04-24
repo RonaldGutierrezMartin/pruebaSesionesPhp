@@ -14,6 +14,10 @@
         echo "exite";
         echo $_SESSION["hola"];
     }
+    if (isset($_SESSION["hola"])) {
+        echo "exite";
+        echo $_SESSION["hola"];
+    }
 
     ?>
 </body>
